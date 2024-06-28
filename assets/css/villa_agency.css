@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin :0 ;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+  }
+
+ul , li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{text-decoration: none;}
+
+li{
+    font-size: 18px;
+}
+
+body{
+    background-color: #fff ;
+}
+
+.sub_header {
+    color: #ccc;
+    background-color: #fff;
+    padding: 10px 0px;
+}
+
+a{
+    color: #333;
+}
+
+button{
+    border-radius: 20px;
+}
+
+.a{
+    color: #fff;
+}
+
+.navs{
+    margin-left: 30%;
+    transform: translateY(-120%);
+}
+
+.bouton{
+    background-color: #333;
+    border-radius: 30px;
+}
+
+.para{
+    font-size: 62px;
+    color: #fff;
+    display: block;
+}
+
+.toro{
+    margin: 0px 0px 30px;
+    padding: 6px 15px;
+    background-color: white;
+    width: 15%;
+    margin-left: 200px;
+}
+
+.carousel-item {
+    /*background-size: contain; /* Taille de l'image ajustée pour conserver ses proportions */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center center; /* Positionnement au centre de l'image */
+    height: 100vh; /* Hauteur de la div carousel-item */
+  }
+
+.info{
+    border: 1px solid #f6f6f6;
+    padding: 35px 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #f6f6f6
+}
+
+  
